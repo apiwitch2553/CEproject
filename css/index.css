@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffc7f7;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 199, 247, 1) 0%,
+    rgba(255, 253, 191, 1) 50%,
+    rgba(255, 199, 247, 1) 100%
+  );
+  color: rgb(245, 171, 171);
+  margin: 60px auto;
+  font-family: "Dancing Script", cursive;
+}
+
+.flex {
+  background-color: rgb(130, 85, 14);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.navbar {
+  text-align: center;
+  margin: 30px;
+}
+
+.img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 25px;
+}
+
+.start {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 45px;
+}
+
+.start button {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgb(207, 225, 243);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+  border-color: beige;
+}
